@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f6317b-0065-468c-893c-0bc1aebdd348">
+  <producedTypes>
+    <objectType typeId="8a978961-093a-4f26-bd9b-90c05b1cbec5" valueTypeId="51233e66-f072-4067-8061-97c555c148b7"/>
+    <managerType typeId="a9304f90-a2af-4bb9-9e36-ca1a7849cc73" valueTypeId="b56cf8ca-7ae4-41ff-af14-4d244f4f5f57"/>
+  </producedTypes>
+  <name>Плагин_ЗагрузкаВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плагин загрузка выгрузка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="e9218678-9eb5-4678-91e0-71325b931ca8">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

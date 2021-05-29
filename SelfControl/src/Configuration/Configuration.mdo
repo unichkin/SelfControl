@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4bf7073-9a3a-4e97-9f14-e985ef7163bf">
+  <name>Самоконтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Самоконтроль</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="39a39be4-62dc-4253-80cc-343040a48379"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="494f5464-71f8-483e-b25b-cd21e42c5a66"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="89f81a38-09c9-4761-bb9d-d696fc9b4e4d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b0cedc10-2308-4c82-ad88-9bfe231d864f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f6ffcf66-b17b-4d1d-8a1b-0fb0d1e8f84f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="429f46c6-5eba-41f9-9be4-0fcd4f6e2521"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="43d707a9-dc70-4199-8ddb-9570d784554f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НастройкаПорядкаЭлементов</subsystems>
+  <commonPictures>CommonPicture.ПроверкаОрфографии</commonPictures>
+  <commonPictures>CommonPicture.Пиксель</commonPictures>
+  <commonPictures>CommonPicture.СостоянияВопроса</commonPictures>
+  <commonModules>CommonModule.ГлобальныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.НастройкаПорядкаЭлементов</commonModules>
+  <commonModules>CommonModule.НастройкаПорядкаЭлементовСлужебный</commonModules>
+  <commonModules>CommonModule.НастройкиОформленияКлиентСервер</commonModules>
+  <commonModules>CommonModule.НастройкиПрограммыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.ПроверкаОрфографииВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСВопросамиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСДиалогами</commonModules>
+  <commonModules>CommonModule.РаботаСДиалогамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСДиалогамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
+  <definedTypes>DefinedType.ОбъектСНастраиваемымПорядком</definedTypes>
+  <constants>Constant.СловаИсключенияПриПроверкеОрфографии</constants>
+  <constants>Constant.ОформлениеТекстаВопросов</constants>
+  <constants>Constant.ПеремешиватьВопросы</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Вопросы</catalogs>
+  <catalogs>Catalog.ОтборыВопросов</catalogs>
+  <catalogs>Catalog.СессииТестирования</catalogs>
+  <dataProcessors>DataProcessor.Плагин_ЗагрузкаВыгрузка</dataProcessors>
+  <dataProcessors>DataProcessor.ЗапускТестов</dataProcessors>
+  <dataProcessors>DataProcessor.ПарсингВопросов</dataProcessors>
+</mdclass:Configuration>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9b46ec4-2caf-4786-8b16-a02d8aea2219">
+  <producedTypes>
+    <objectType typeId="77d00a06-6fa4-4414-af0d-48579ed06506" valueTypeId="dd93c455-93e9-4fd2-8e42-bb8d620ba97b"/>
+    <managerType typeId="5dd1f2e8-904b-4cc8-818f-7ab6e15dda1a" valueTypeId="385a8ca1-834e-4827-b903-ac1057a07ddc"/>
+  </producedTypes>
+  <name>ПарсингВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парсинг вопросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПарсингВопросов.Form.Форма</defaultForm>
+  <attributes uuid="b70c62ed-2e58-4f33-b600-a29233740b4f">
+    <name>ДеревоВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево вопросов</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a9e93039-9ec8-49ac-abc7-61b547d06394">
+    <name>ТекстИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="60b3943e-69be-4b34-9b04-37f2b5114d67">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

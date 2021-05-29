@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0774f6b1-a845-4ae1-94b4-af19da40bbf4">
+  <producedTypes>
+    <managerType typeId="767636a2-2b16-4c8c-86d2-03177f0c65a0" valueTypeId="a26a861b-877d-4ca1-b22f-f8b2ce7055ac"/>
+    <valueManagerType typeId="eac69bcb-aa8a-43a8-b69b-0698747ff4af" valueTypeId="ad0aa634-f416-4c95-acac-35d4c71452d1"/>
+    <valueKeyType typeId="8460085e-75b5-434e-b03d-b52cdebc8036" valueTypeId="0765a7bb-14de-45b7-8d9b-f405c2f50e96"/>
+  </producedTypes>
+  <name>ОформлениеТекстаВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление текста вопросов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

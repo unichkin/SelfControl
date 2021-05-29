@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a93094e5-dee7-4dad-8b2c-ada412463902">
+  <producedTypes>
+    <managerType typeId="0660b14c-d061-473b-8fb4-de32e09b3978" valueTypeId="22862af4-a840-4443-8e14-ab9aa8a741d6"/>
+    <valueManagerType typeId="92e9d1e4-82b9-4158-b56c-751af92808f5" valueTypeId="7ccbfbb2-5e63-4274-8295-cdf8de2738fe"/>
+    <valueKeyType typeId="0597ff1e-f814-4395-9d78-ef029a80b2f0" valueTypeId="92d709a4-d9e6-46c2-9bc5-97baf079f9f0"/>
+  </producedTypes>
+  <name>СловаИсключенияПриПроверкеОрфографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слова исключения при проверке орфографии</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

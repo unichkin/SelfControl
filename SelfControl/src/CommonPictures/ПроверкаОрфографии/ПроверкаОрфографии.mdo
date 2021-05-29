@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0371adb8-1a41-44d1-a59e-65421d9bb648">
+  <name>ПроверкаОрфографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка орфографии</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93d240ed-ad37-4457-8134-96c2c343a287">
+  <producedTypes>
+    <containerType typeId="cf9b56e1-9187-4572-8783-72292d553c6b" valueTypeId="57dbcdf2-ea87-4db0-8edd-787616467372"/>
+  </producedTypes>
+  <name>ОбъектСНастраиваемымПорядком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с настраиваемым порядком</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Вопросы</types>
+  </type>
+</mdclass:DefinedType>

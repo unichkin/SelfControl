@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d99ee2f5-8e1a-44fd-abca-c0a988f3db72">
+  <producedTypes>
+    <objectType typeId="d21a83c7-6783-4c43-be7b-965e31a25d8c" valueTypeId="ecef98f2-649a-4293-a122-105e91c7fe29"/>
+    <managerType typeId="5826ed0e-0b0f-4265-afa4-4c230678533a" valueTypeId="1a186430-ee30-4c68-9ee0-d862f81c6f4f"/>
+  </producedTypes>
+  <name>ЗапускТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗапускТестов.Form.Форма</defaultForm>
+  <attributes uuid="305a9d99-6027-47bf-851c-5a00831d136c">
+    <name>Компоновщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ec25cbd6-b466-46e3-a16b-59054162f3ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fbd9db10-7ee1-41c8-912d-1837f83dc893">
+    <name>СхемаОтбораВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема отбора вопросов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

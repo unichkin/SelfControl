@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c62d094b-1303-455a-a4bb-616ba0136661">
+  <producedTypes>
+    <managerType typeId="a19447aa-94c7-4e55-8da8-bd4ab83dc230" valueTypeId="f801f6bd-00ec-485c-96c4-6d606cb9561a"/>
+    <valueManagerType typeId="1d476c34-9113-410b-8d22-951f67738f24" valueTypeId="790494c1-2bca-469b-8076-fd41c5f9723b"/>
+    <valueKeyType typeId="dd6d94e5-7726-4da6-a059-51c391140164" valueTypeId="5ba327f1-c786-4665-9271-73b5212798b0"/>
+  </producedTypes>
+  <name>ПеремешиватьВопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемешивать вопросы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

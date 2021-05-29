@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:qu="http://www.QP.org/Questions" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.QP.org/Questions" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Корень" type="qu:Вопросы"/>
+	<xs:complexType name="Вопрос">
+		<xs:sequence>
+			<xs:element name="ТекстВопроса" type="xs:string"/>
+			<xs:element name="ЗапретПеремешивания" type="xs:boolean"/>
+			<xs:element name="Ответы" type="qu:Ответы"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Вопросы">
+		<xs:sequence>
+			<xs:element name="Элементы" type="qu:Вопрос" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ответ">
+		<xs:sequence>
+			<xs:element name="ТекстОтвета" type="xs:string"/>
+			<xs:element name="ЭтоВерныйОтвет" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ответы">
+		<xs:sequence>
+			<xs:element name="Элементы" type="qu:Ответ" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
