@@ -44,7 +44,6 @@
   <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
   <commonModules>CommonModule.ПроверкаОрфографииВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСВопросамиВызовСервера</commonModules>
-  <commonModules>CommonModule.РаботаСДиалогами</commonModules>
   <commonModules>CommonModule.РаботаСДиалогамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСДиалогамиКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
